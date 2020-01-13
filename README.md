@@ -17,7 +17,9 @@
 
 1.  第一步：git clone 或 download 该项目
 
-2.  第二步：
+2.  第二步：cd 进入项目目录
+
+> 若环境中不存在 `yarn`/`npm`，则需要先[安装yarn](https://yarnpkg.com/zh-Hans/docs/install)
 
 ```bash
 # 安装依赖包
@@ -27,7 +29,9 @@ yarn # 或 npm i
 yarn dev # 或 npm run dev
 ```
 
-3.  第三步：修改 example/README.md
+`yarn dev`运行完后，使用浏览器打开提供的网址
+
+3.  第三步：修改 example/README.md，保存后网页将自动热更新
 
 ### 方式二：使用主题
 
@@ -59,7 +63,9 @@ $borderColor = #eaecef
 
 > 如何导出为 pdf?
 
-chrome 页面中右键 -> 打印 -> 另存为 pdf
+chrome 页面中右键 -> 打印 -> 另存为 pdf。
+
+注意：打印-更多设置-取消勾选页眉和页脚。否则会有标题和日期。
 
 > 导出的 pdf 如何控制只有 1 页？
 
